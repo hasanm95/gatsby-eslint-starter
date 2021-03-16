@@ -6,7 +6,6 @@ import "@assets/css/fonts.css";
 import "@assets/css/bootstrap.css";
 import Header from "./header";
 import Footer from "./footer";
-// import ScrollToTop from "@shared/scroll-to-top";
 
 const Layout = ({ children }) => {
     return (
@@ -15,7 +14,6 @@ const Layout = ({ children }) => {
                 <GlobalCSS />
                 <Header />
                 {children}
-                {/* <ScrollToTop /> */}
                 <Footer />
             </div>
         </ThemeProvider>
