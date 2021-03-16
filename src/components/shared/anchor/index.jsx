@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { LinkWrapper, AnchorTag } from "./style";
 
-const Anchor = ({ path, children, className, rel, label, target }) => {
+const Anchor = ({ path, children, className, rel, label, target, sx }) => {
     const internal = /^\/(?!\/)/.test(path);
     if (internal) {
         return (
