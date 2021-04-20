@@ -5,21 +5,20 @@
         "plugin:react/recommended",
         "plugin:import/warnings",
         "plugin:jsx-a11y/strict",
-        "plugin:prettier/recommended",
-        "prettier"
+        "plugin:prettier/recommended"
     ],
     "settings": {
         "react": {
             "version": "detect"
         }
     },
-    "env": { 
+    "env": {
         "browser": true,
         "node": true,
         "es6": true
     },
     "plugins": ["react", "react-hooks", "prettier", "jsx-a11y"],
-    "parserOptions": { 
+    "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
         },
@@ -32,16 +31,22 @@
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
         "prettier/prettier": "error",
-        "jsx-a11y/label-has-associated-control": [ "error", {
-            "required": {
-              "some": [ "nesting", "id"  ]
+        "jsx-a11y/label-has-associated-control": [
+            "error",
+            {
+                "required": {
+                    "some": ["nesting", "id"]
+                }
             }
-        }],
-        "jsx-a11y/label-has-for": [ "error", {
-            "required": {
-              "some": [ "nesting", "id"  ]
+        ],
+        "jsx-a11y/label-has-for": [
+            "error",
+            {
+                "required": {
+                    "some": ["nesting", "id"]
+                }
             }
-        }],
+        ],
         "eslint-plugin/fixer-return:": "off"
     }
 }

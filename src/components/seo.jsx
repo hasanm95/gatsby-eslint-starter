@@ -173,6 +173,7 @@ SEO.propTypes = {
 SEO.defaultProps = {
     lang: `en`,
     description: ``,
+    pathname: "/",
 };
 
 export default SEO;
