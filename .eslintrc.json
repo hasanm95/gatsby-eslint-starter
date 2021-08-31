@@ -5,7 +5,8 @@
         "plugin:react/recommended",
         "plugin:import/warnings",
         "plugin:jsx-a11y/strict",
-        "plugin:prettier/recommended"
+        "plugin:prettier/recommended",
+        "plugin:react-hooks/recommended"
     ],
     "settings": {
         "react": {

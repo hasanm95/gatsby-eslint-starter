@@ -6,7 +6,9 @@ import { HeaderTop } from "./style";
 const Header = () => {
     return (
         <Fragment>
-            <HeaderTop>Header</HeaderTop>
+            <HeaderTop>
+                <h1>dfasdfasdf</h1>
+            </HeaderTop>
         </Fragment>
     );
 };

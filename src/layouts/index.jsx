@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import theme from "@theme";
-import { ThemeProvider } from "@theme/utils";
+import { ThemeProvider } from "theme-ui";
 import { GlobalCSS } from "@assets/css/style";
 import "@assets/css/fonts.css";
 import "@assets/css/bootstrap.css";

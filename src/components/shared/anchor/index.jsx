@@ -35,6 +35,7 @@ Anchor.propTypes = {
     rel: PropTypes.string,
     label: PropTypes.string,
     target: PropTypes.oneOf(["_blank" | "_self" | "_parent" | "_top"]),
+    sx: PropTypes.shape({}),
 };
 
 export default Anchor;

@@ -28,7 +28,6 @@ module.exports = {
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-image`,
         `gatsby-plugin-emotion`,
-        `gatsby-plugin-theme-ui`,
         {
             resolve: "gatsby-source-filesystem",
             options: {

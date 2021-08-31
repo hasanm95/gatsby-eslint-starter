@@ -5,10 +5,7 @@ exports.onCreateWebpackConfig = ({ actions }) => {
     actions.setWebpackConfig({
         resolve: {
             alias: {
-                "@theme": path.resolve(
-                    __dirname,
-                    "./src/gatsby-plugin-theme-ui"
-                ),
+                "@theme": path.resolve(__dirname, "./src/theme"),
                 "@components": path.resolve(__dirname, "./src/components"),
                 "@shared": path.resolve(__dirname, "./src/components/shared"),
                 "@containers": path.resolve(__dirname, "./src/containers"),
